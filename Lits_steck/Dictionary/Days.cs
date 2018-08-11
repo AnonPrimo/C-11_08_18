@@ -8,15 +8,20 @@ namespace Dictionary
 {
     class Days
     {
-        public List<string> Day { get; set; }
+        public string Mon { get; set; }
+        public string Tue { get; set; }
+        public string Wed { get; set; }
+        public string Thur { get; set; }
+        public string Fry { get; set; }
+
 
         public Days()
         {
-            Day.Add("Monday");
-            Day.Add("Tuesday");
-            Day.Add("Wednesday");
-            Day.Add("Thursday");
-            Day.Add("Fryday");
+            Mon = "Monday";
+            Tue = "Tuesday";
+            Wed = "Wednesday";
+            Thur = "Thursday";
+            Fry = "Fryday";
         }
     }
 }
